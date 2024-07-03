@@ -42,8 +42,12 @@ Download and install Open vSwitch from the official website:
 
 ### 4. Start Mininet Topology
 Create and start the Mininet topology with the following command:
+```sh
 sudo mn --topo single,3 --mac --switch ovsk --controller remote
+```
 
 ### 5. Start Real-Time Prediction
 Run the traffic classifier script with the following command:
+```sh
 python3 traffic_classifier_python3.py supervised
+```
