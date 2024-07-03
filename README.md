@@ -31,18 +31,18 @@ git clone https://github.com/jbucar/ditg
 cd ditg
 make
 
-2. Install Mininet
+### 2. Install Mininet
 Download and install Mininet from the official website:
 [Mininet Download](https://mininet.org/download/)
 
-3. Install Open vSwitch
+### 3. Install Open vSwitch
 Download and install Open vSwitch from the official website:
 [Open vSwitch Download](https://www.openvswitch.org/download/)
 
-4. Start Mininet Topology
+### 4. Start Mininet Topology
 Create and start the Mininet topology with the following command:
 sudo mn --topo single,3 --mac --switch ovsk --controller remote
 
-5. Start Real-Time Prediction
+### 5. Start Real-Time Prediction
 Run the traffic classifier script with the following command:
 python3 traffic_classifier_python3.py supervised
