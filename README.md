@@ -26,11 +26,11 @@ The system uses Mininet to create a simple network topology with three hosts con
 ### 1. Install D-ITG
 
 Clone and install D-ITG from the repository:
-'''sh
+```sh
 git clone https://github.com/jbucar/ditg
 cd ditg
 make
-'''
+```
 
 ### 2. Install Mininet
 Download and install Mininet from the official website:
